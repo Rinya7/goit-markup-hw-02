@@ -1,0 +1,97 @@
+:root {
+  --navy-blue: #2e2f42;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+}
+body {
+  background-color: #ffffff;
+  color: var(--slate);
+}
+/* класс чтобы убрать в списках марикровку */
+.list {
+  list-style: none;
+}
+
+/* Site nav */
+.logo-web {
+  color: var(--iris);
+}
+
+.site-nav .link {
+  color: var(--navy-blue);
+}
+
+.header-contacts .link {
+  color: var(--slate);
+}
+
+/* Section first */
+
+.section-first {
+  background-color: var(--navy-blue);
+}
+.mein-heading {
+  color: #ffffff;
+}
+
+.order-button {
+  color: #ffffff;
+  background-color: var(--iris);
+}
+
+/* Section2 */
+.section2-heading2 {
+  color: #ffffff;
+}
+.section2-list-heading3 {
+  color: var(--navy-blue);
+}
+
+/* section3 */
+
+.section3-heading2 {
+  color: var(--navy-blue);
+}
+
+/* section4 */
+
+.section4 {
+  background-color: var(--cloud);
+}
+
+.section4-heading2 {
+  color: var(--navy-blue);
+}
+
+.section4-heading3 {
+  color: var(--navy-blue);
+}
+
+.section4-list {
+  background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer .link {
+  color: var(--cloud);
+}
+
+.footer .paragraf {
+  color: #e7e9fc;
+}
+/* Основной цвет текста NAVY BLUE:#2E2F42 */
+/* Цвет текста белый #FFFFFF */
+/* акцент IRIS #4D5AE5 */
+/* Цвет основного текста SLATE #434455 */
+/* Цвет текста футера CORNFLOWER #E7E9FC */
+/* цвет тени кнопки box-shadow rgba(0, 0, 0, 0.15) */
+/* фон кнопок и блоков портфолио  и секции  OUT TEAM CLOUD #F4F4FD */
+/* Тень футера 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08) */
