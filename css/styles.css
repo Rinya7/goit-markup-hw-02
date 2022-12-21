@@ -4,9 +4,10 @@
   --slate: #434455;
   --cornflower: #e7e9fc;
   --cloud: #f4f4fd;
+  --white: #ffffff;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--white);
   color: var(--slate);
 }
 /* класс чтобы убрать в списках марикровку */
@@ -27,52 +28,37 @@ body {
   color: var(--slate);
 }
 
-/* Section first */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--iris);
+}
 
-.section-first {
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--iris);
+}
+/* Section first*/
+
+.section.block {
   background-color: var(--navy-blue);
 }
-.mein-heading {
-  color: #ffffff;
+.mein-title {
+  color: var(--white);
 }
 
 .order-button {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--iris);
 }
-
-/* Section2 */
-.section2-heading2 {
-  color: #ffffff;
+.order-button:hover,
+.order-button:focus {
+  color: var(--iris);
+  background-color: var(--white);
 }
-.section2-list-heading3 {
+
+/* Пропишем цвет всех заголовков в секциях*/
+.section .title {
   color: var(--navy-blue);
-}
-
-/* section3 */
-
-.section3-heading2 {
-  color: var(--navy-blue);
-}
-
-/* section4 */
-
-.section4 {
-  background-color: var(--cloud);
-}
-
-.section4-heading2 {
-  color: var(--navy-blue);
-}
-
-.section4-heading3 {
-  color: var(--navy-blue);
-}
-
-.section4-list {
-  background-color: #ffffff;
-  width: 264px;
-  height: 380px;
 }
 
 /* footer */
@@ -83,9 +69,19 @@ body {
 .footer .link {
   color: var(--cloud);
 }
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--iris);
+}
 
-.footer .paragraf {
-  color: #e7e9fc;
+.footer .text {
+  color: var(--cornflower);
+}
+
+/*Страница  portfolio */
+
+.link.current {
+  color: var(--iris);
 }
 /* Основной цвет текста NAVY BLUE:#2E2F42 */
 /* Цвет текста белый #FFFFFF */
