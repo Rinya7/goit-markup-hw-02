@@ -46,12 +46,22 @@ body {
   color: var(--white);
 }
 
-.order-button {
+/* Макет для кнопок два вида, order, normal и activ */
+
+.button {
+  color: var(--iris);
+  background-color: var(--cornflower);
+}
+.button:hover {
   color: var(--white);
   background-color: var(--iris);
 }
-.order-button:hover,
-.order-button:focus {
+.button.order {
+  color: var(--white);
+  background-color: var(--iris);
+}
+.button.order:hover,
+.button.order:focus {
   color: var(--iris);
   background-color: var(--white);
 }
